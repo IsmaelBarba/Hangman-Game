@@ -1,0 +1,90 @@
+/*** HTML Sizing ***/
+html {
+	box-sizing: : border-box;;
+}
+
+/** Color Scheme ***/
+
+body {
+	background-color: #b09eff;
+}
+
+/*** Headers ***/
+
+.header {
+	background-color: #8acfff;
+	min-height: 40px;
+	text-align: center;
+}
+
+header h1 {
+	padding-top: 10px;
+	font-size: 1.2em;
+}
+
+/** Box DIVS **/
+
+.instructionBox {
+	background-color: #a5ffb3;
+	min-height: 30px;
+	text-align: center;
+}
+
+.instructionBox p {
+	padding: 12px;
+}
+
+#statCounter {
+	background-color: #fff;
+	border-radius: 25px;
+	height:auto;
+	width: auto;
+	max-width: 25%;
+	max-height: 20%;
+	min-width: 230px;
+	margin-left: 5%;
+	padding:18px;	
+}
+
+#contentBox {
+	display: inline-block;
+	width:100%;
+}
+
+/*** IMAGE SIZING ***/
+
+#imageBox img{
+	display: inline-block;
+	height: auto;
+	width: auto;
+	max-width: 400px;
+	max-height:  300px;	
+	border-radius: 15px;
+	position: relative;
+	float:right;
+	margin-right: 10%;
+	margin-top: -100px;
+}
+
+#underScore {
+	padding-left: 5%;
+	padding-top: 3%;
+}
+
+#underScore p {
+	display: inline;
+	padding: 20px 8px;
+	font-size: 1.2em;
+	font-weight: 800;
+}
+
+@media (max-width: 780px){
+
+	#imageBox img{
+		margin-top: 0px;
+	}
+
+}
+
+
+
